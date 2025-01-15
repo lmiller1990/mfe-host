@@ -1,1 +1,0 @@
-import{_ as o}from"./preload-helper-CLcXU_4U.js";const a={"./greet":async()=>{const t=await o(()=>import("./greet-CRjhjvlY.js"),[]),e={};return Object.assign(e,t),Object.defineProperty(e,"__esModule",{value:!0,enumerable:!1}),e}};export{a as default};
