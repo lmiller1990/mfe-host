@@ -35,6 +35,8 @@ jobs:
         with:
           node-version: 20
           cache: 'npm'
+      - name: pnpm
+        run: curl -fsSL https://get.pnpm.io/install.sh | env PNPM_VERSION=10.0.0 sh -
       - name: Install dependencies
         run: npm ci
       - name: Build
