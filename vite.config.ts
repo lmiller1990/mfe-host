@@ -22,7 +22,7 @@ export default defineConfig({
       remotes: {
         mfe_client: {
           name: "mfe_client",
-          entry: "http://lmiller1990.github.io/mfe-client/remoteEntry.js",
+          entry: "https://lmiller1990.github.io/mfe-client/remoteEntry.js",
           type: "module",
         },
       },
